@@ -2,4 +2,6 @@ name := "preowned-kittens"
 
 version := "1.0"
 
-libraryDependencies += "org.specs2" % "specs2_2.10" % "1.14" % "test"
+libraryDependencies ++= Seq(
+  "org.specs2" % "specs2_2.12" % "2.5" % "test"
+)
