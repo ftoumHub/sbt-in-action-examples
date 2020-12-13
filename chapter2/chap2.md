@@ -161,7 +161,7 @@ downloading https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.12/jansi
 [info] Compiling 3 Scala sources to D:\DevHome\sbt-in-action-examples\chapter2\target\scala-2.12\classes ...
 [info] Non-compiled module 'compiler-bridge_2.12' for Scala 2.12.10. Compiling...
 [info]   Compilation completed in 13.071s.
-[info] running org.preownedkittens.PreownedKittenMain
+[info] running org.preownedkittens.PreownedKittenJava
 Hello, sbt world!
 [success] Total time: 23 s, completed 12 déc. 2020 à 22:08:09
 ```

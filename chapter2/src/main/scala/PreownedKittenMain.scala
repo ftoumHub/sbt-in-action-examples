@@ -1,5 +1,5 @@
 package org.preownedkittens
 
 object PreownedKittenMain extends App {
-  println("Hello, sbt world!")
+  println("Hello, sbt world in scala!")
 }
