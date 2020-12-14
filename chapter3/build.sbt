@@ -1,3 +1,4 @@
+// This sets the project name to the string literal "preowned-kittens"
 name := "preowned-kittens"
 
 version in ThisBuild := "1.0"
@@ -16,11 +17,11 @@ val makeVersionProperties = taskKey[Seq[File]]("Creates a version.properties fil
 def PreownedKittenProject(name: String): Project = (
   Project(name, file(name))
   settings(
-    libraryDependencies += "org.specs2" % "specs2_2.10" % "1.14" % "test"
+    libraryDependencies += "org.specs2" % "specs2_2.12" % "2.5" % "test"
   )
 )
 
-gitHeadCommitSha in ThisBuild := Process("git rev-parse HEAD").lines.head
+/**gitHeadCommitSha in ThisBuild := Process("git rev-parse HEAD").lines.head
 
 
 // Projects in this build
@@ -48,7 +49,7 @@ lazy val website = (
   PreownedKittenProject("website")
   dependsOn(common)
   settings()
-)
+)*/
 
 
 
